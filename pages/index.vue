@@ -6,7 +6,7 @@
       <section class="hero">
         <article class="hero__container">
           <hr>
-          <span class="hero__subtitle">Desarrollador</span>
+          <span class="hero__subtitle">{{ $t('index.hero.developer') }}</span>
           <h1 class="hero__title">
             <span>Front</span>
             <span>End</span>
@@ -14,7 +14,7 @@
           <hr>
           <div class="hero__button">
             <Button>
-              Ver Portafolio
+              {{ $t('index.hero.ctaButton') }}
             </Button>
           </div>
         </article>
