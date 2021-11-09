@@ -1,0 +1,36 @@
+/* Random blocks */
+.separator_100 {
+  text-align: right;
+  width: 30vw;
+  height: 50px;
+  background-image:
+    linear-gradient(
+      to right,
+      #b1b1b1,
+      #dedede
+    );
+}
+
+.separator_50 {
+  width: 10vw;
+  height: 50px;
+  background-image:
+    linear-gradient(
+      to right,
+      #b1b1b1,
+      #dedede
+    );
+}
+
+/* Effects */
+.parallax-block {
+  position: absolute;
+  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+  top: 50%;
+  left: 35%;
+}
+
+.parallax-block:last-of-type {
+  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
+}
