@@ -2,6 +2,7 @@
   <main-wrapper>
     <Header />
     <Main>
+      <!-- Hero -->
       <section class="hero">
         <article class="hero__container">
           <hr>
@@ -53,6 +54,7 @@ export default {
 
 <style lang="postcss" scoped>
 .hero {
+  position: relative;
   height: 741px;
   margin-top: -2px;
   background-image: url('../assets/images/hero@2x.png');
@@ -108,15 +110,15 @@ export default {
 
 @media (min-width: 1200px) {
   .hero__container {
-    width: 321px;
+    width: 300px;
   }
 
   .hero__title {
-    font-size: 7.8125rem;
+    font-size: 5.8125rem;
   }
 
   .hero__subtitle {
-    font-size: 2.8125rem;
+    font-size: 1.8125rem;
   }
 }
 </style>

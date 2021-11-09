@@ -21,6 +21,7 @@
 
 <style lang="postcss" scoped>
 .button {
+  font-size: 1rem;
   padding: 1rem 1.5rem;
 }
 
