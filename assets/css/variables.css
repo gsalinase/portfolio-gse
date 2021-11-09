@@ -1,0 +1,11 @@
+/* Variables */
+:root {
+  /* Colors */
+  --sunset-orange: #f25757;
+  --white: #fff;
+  --black: #000;
+
+  /* Fonts */
+  --playfair: 'Playfair Display',serif;
+  --montserrat: 'Montserrat',sans-serif;
+}

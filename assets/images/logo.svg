@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="logo" transform="translate(24.000000, 24.000000)">
+            <g id="Ellipse_2">
+                <circle id="Oval" cx="126.125" cy="126.125" r="126.125"></circle>
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="6" cx="126.125" cy="126.125" r="123.125"></circle>
+            </g>
+            <path d="M126.249,128.346 L245.249,126.249" id="Line_12" stroke="#FFFFFF" stroke-width="6"></path>
+            <path d="M7.249,146.868 L126.249,146.868" id="Line_13" stroke="#FFFFFF" stroke-width="6"></path>
+        </g>
+    </g>
+</svg>
