@@ -24,6 +24,7 @@ export default {
   css: [
     '@/assets/css/variables.css',
     '@/assets/css/reset.css',
+    '@/assets/css/helpers.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
