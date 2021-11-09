@@ -1,0 +1,27 @@
+body {
+  position: relative;
+  margin: 0;
+}
+
+.separator_100 {
+  text-align: right;
+  width: 30vw;
+  height: 50px;
+  background-image:
+    linear-gradient(
+      to right,
+      #b1b1b1,
+      #dedede
+    );
+}
+
+.separator_50 {
+  width: 10vw;
+  height: 50px;
+  background-image:
+    linear-gradient(
+      to right,
+      #b1b1b1,
+      #dedede
+    );
+}
