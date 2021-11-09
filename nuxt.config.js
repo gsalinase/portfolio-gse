@@ -42,6 +42,7 @@ export default {
     '@nuxtjs/stylelint-module',
     '@nuxtjs/prismic',
     'nuxt-purgecss',
+    'nuxt-i18n'
   ],
 
   // Prismic config
@@ -70,5 +71,22 @@ export default {
         }
       }
     }
-  } 
+  },
+  
+  // Locales
+  i18n: {
+    lazy: true,
+    langDir: 'lang/',
+    defaultLocale: 'en',
+    locales: [
+      {
+        code: 'en',
+        file: 'en-US.js'
+      },
+      {
+        code: 'es',
+        file: 'es-CL.js'
+      },
+    ],
+  }
 }
