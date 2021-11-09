@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'gse-portfolio',
+    title: 'Gonzalo Salinas ',
     htmlAttrs: {
       lang: 'en'
     },
@@ -22,6 +22,8 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@/assets/css/variables.css',
+    '@/assets/css/reset.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -37,7 +39,8 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
-    '@nuxtjs/prismic'
+    '@nuxtjs/prismic',
+    'nuxt-purgecss',
   ],
 
   // Prismic config
@@ -51,6 +54,20 @@ export default {
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-  }
+  build: { 
+    postcss: { 
+      plugins: { 
+        'postcss-nested': {
+          syntax: 'postcss-scss'
+        },
+        'autoprefixer': {}
+      },
+      preset: {
+        // Change the postcss-preset-env settings
+        autoprefixer: {
+          grid: true
+        }
+      }
+    }
+  } 
 }
