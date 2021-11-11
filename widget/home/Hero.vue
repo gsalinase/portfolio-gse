@@ -42,7 +42,6 @@ export default {
 .hero {
   position: relative;
   height: 741px;
-  margin-top: -2px;
   overflow: hidden;
   background-image: url('../../assets/images/hero-bg.jpg');
   background-size: contain;
@@ -59,7 +58,7 @@ export default {
 
 .hero-bg__left {
   width: 30vw;
-  height: 741px;
+  height: 730px;
   background-image: url('../../assets/images/hero-bg-left.jpg');
 }
 
@@ -151,7 +150,6 @@ export default {
 @media (min-width: 1200px) {
   .hero-bg__left {
     width: 40vh;
-    height: 741px;
   }
 
   .hero-bg__center {
@@ -161,16 +159,11 @@ export default {
   }
 
   .hero-bg__right-top {
-    width: 30vh;
-    height: 172px;
     left: 860px;
   }
 
   .hero-bg__right-bottom {
-    width: 45vh;
-    height: 600px;
     left: 1000px;
-    bottom: 1px;
   }
 
   .hero__container {
